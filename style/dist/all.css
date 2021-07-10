@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, "LiHei Pro", "Microsoft JhengHei", "MingLiU", sans-serif;
+  padding: 1rem 0;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  padding: 0;
+  margin: 1rem 0;
+}
+
+body {
+  background-color: #E9EAED;
+  padding: 0;
+}
+
+.title {
+  padding: 0 1rem;
+  border: 1px solid #E0E0E0;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.calendar {
+  position: absolute;
+  right: 6.5rem;
+  bottom: 0.5rem;
+  width: 20px;
+  height: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #707070;
+}
+
+tbody:nth-child(even) {
+  background: #fff;
+}
+
+tr:nth-child(even) {
+  background: #F9F9F9;
+}
+
+.name {
+  padding-left: 1rem;
+}
+
+.closePr,
+.cf,
+.percent,
+.sale {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+td,
+th {
+  border: 1px solid #E0E0E0;
+}
+
+th {
+  border-bottom: 2px solid #ccc;
+}
+
+.red {
+  color: #EA3323;
+}
+
+.green {
+  color: #52A633;
+}
+
+.date {
+  color: #707070;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
