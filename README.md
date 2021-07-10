@@ -1,2 +1,2 @@
 # dataProcessing_practice
-api串接練習與資料處理
+實作練習api串接與動態資料處理
